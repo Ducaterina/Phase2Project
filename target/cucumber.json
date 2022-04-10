@@ -1,0 +1,532 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6719126700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened SWAGLABS application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_swaglabs_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T09:30:34.769Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5923189400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate the successful login using multiple test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-login-into-the-application;validate-the-successful-login-using-multiple-test-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 793073900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 486974100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305217600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 678829800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2475400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be landed on the products page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_LoginSauceDemo"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6745942700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened SWAGLABS application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_swaglabs_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T09:30:49.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3584303300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate the successful login using multiple test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-login-into-the-application;validate-the-successful-login-using-multiple-test-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1346948200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 437742600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter username \"performance_glitch_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 315207800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5609774000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1538000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be landed on the products page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_LoginSauceDemo"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8585002800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened SWAGLABS application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_swaglabs_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T09:31:07.834Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3127855100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate the successful login using multiple test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-login-into-the-application;validate-the-successful-login-using-multiple-test-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1155280000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 422965900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter username \"problem_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288408900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 900511400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2201900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be landed on the products page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_LoginSauceDemo"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to login into the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-login-into-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@F_LoginSauceDemo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6760834200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened SWAGLABS application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_swaglabs_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-10T09:31:22.330Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2898585200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate the prices of products on the product page",
+        "description": "",
+        "id": "this-feature-would-be-used-to-validate-the-prices-of-products;validate-the-prices-of-products-on-the-product-page",
+        "after": [
+          {
+            "result": {
+              "duration": 454308000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1952375300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have logged in successfully",
+            "match": {
+              "location": "ProductsSteps.i_have_logged_in_successfully()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1735939100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the prices of the products according to the table below",
+            "match": {
+              "location": "ProductsSteps.validate_the_prices_of_the_products_according_to_the_table_below(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack",
+                  "$29.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light",
+                  "$9.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt",
+                  "$15.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket",
+                  "$49.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie",
+                  "$7.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)",
+                  "$15.99"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Products"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to validate the prices of products",
+    "description": "",
+    "id": "this-feature-would-be-used-to-validate-the-prices-of-products",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Products.feature",
+    "tags": [
+      {
+        "name": "@F_Products",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
