@@ -15,7 +15,7 @@ public static WebDriver driver;
 	@Before
 	public void SetUp() {
 		
-		System.setProperty("webdriver.chrome.driver", "chromedriverNew.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver103.0.5060.66.exe");
 		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 		driver = new ChromeDriver();

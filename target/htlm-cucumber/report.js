@@ -288,6 +288,289 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.scenarioOutline({
+  "name": "Validate the negative login using multiple test data",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I enter username \"\u003cUserName\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I enter password \"\u003cPassword\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I click on the Login Button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I should be getting \"\u003cErrorMsg\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "UserName",
+        "Password",
+        "ErrorMsg"
+      ]
+    },
+    {
+      "cells": [
+        "standard_user",
+        "secret_s",
+        "Epic sadface: Username and password do not match any user in this service"
+      ]
+    },
+    {
+      "cells": [
+        "user",
+        "secret_sauce",
+        "Epic sadface: Username and password do not match any user in this service"
+      ]
+    },
+    {
+      "cells": [
+        "user",
+        "tomato_sauce",
+        "Epic sadface: Username and password do not match any user in this service"
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "Open the application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I have opened SWAGLABS application in browser",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_have_opened_swaglabs_application_in_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate the negative login using multiple test data",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@F_LoginSauceDemo"
+    },
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I enter username \"standard_user\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_enter_username(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter password \"secret_s\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.i_enter_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on the Login Button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be getting \"Epic sadface: Username and password do not match any user in this service\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_getting(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Open the application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I have opened SWAGLABS application in browser",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_have_opened_swaglabs_application_in_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate the negative login using multiple test data",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@F_LoginSauceDemo"
+    },
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I enter username \"user\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_enter_username(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter password \"secret_sauce\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.i_enter_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on the Login Button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be getting \"Epic sadface: Username and password do not match any user in this service\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_getting(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "Open the application",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I have opened SWAGLABS application in browser",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "LoginSteps.i_have_opened_swaglabs_application_in_browser()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate the negative login using multiple test data",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@F_LoginSauceDemo"
+    },
+    {
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "name": "I enter username \"user\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LoginSteps.i_enter_username(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I enter password \"tomato_sauce\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.i_enter_password(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click on the Login Button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_the_login_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should be getting \"Epic sadface: Username and password do not match any user in this service\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginSteps.i_should_be_getting(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("file:src/test/java/features/Products.feature");
 formatter.feature({
   "name": "This feature would be used to validate the prices of products",
